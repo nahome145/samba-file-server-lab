@@ -126,5 +126,17 @@ A production Samba server should include:
 ## Key Takeaways
 This project strengthened my understanding of Linux file-server administration and client-server networking. It also provided practical experience configuring Samba, managing shared-directory permissions, connecting from a Linux client, and troubleshooting virtual-machine connectivity.
 
+## Lab Evidence
+
+### Ubuntu Samba Server Configuration
+The Ubuntu Server was configured to host the `/srv/shared` network directory through Samba.
+
+![Ubuntu Samba server configuration](5.jpg)
+
+### Kali Linux SMB Client Validation
+Kali Linux successfully connected to the Samba share and verified access to the shared files.
+
+![Kali Linux SMB client connection](6.jpg)
+
 ## Ethical Use
 All configuration and testing were performed in an isolated home-lab environment using systems I owned and controlled.
